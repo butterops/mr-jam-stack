@@ -1,4 +1,4 @@
-# mr-jam-stack
+# Mr Jam Stack
 
 > A Jam Stack alrounder desktop app
 
