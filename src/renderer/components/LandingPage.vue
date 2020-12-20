@@ -3,7 +3,7 @@
     <main>
       <div class="left-side">
         <span class="title">
-          Mr Jam Stack!
+          Mr. Jam Stack!
         </span>
         <system-information></system-information>
       </div>
