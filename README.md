@@ -1,6 +1,8 @@
 # Mr Jam Stack
 
-> A Jam Stack alrounder desktop app
+A Jam Stack all rounder desktop app. MrJamStack aims to provide developers a no code / low code approach for creating static websites without compromising one's favourite SSG, CMS or Deployment workflow.
+
+[What is JAM Stack?](https://jamstack.org/)
 
 #### Build Setup
 
@@ -17,9 +19,7 @@ npm run build
 
 ```
 
-### Product Roadmap
-MrJamStack, a desktop app, aims to provide developers a no code/low code approach to creating static sites without compromising one's favourite SSG, CMS or deploy workflow.
-
+### Feature Roadmap
 1. *SSG:* Hugo, Gridsome, Nuxt
 2. *CMS:* NetlifyCMS, Strapi, Contentful and Sanity.
 3. *CI:* Github Actions, Circle CI, Netlify CI etc.
