@@ -6,16 +6,12 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a href="#" class="navbar-item logo">
-          <img
-            src="https://bulma.io/images/bulma-logo-white.png"
-            width="112"
-            height="28"
-          />
-        </a>
+        <div class="navbar-item logo">
+          <span>MR. JAM STACK</span>
+        </div>
         <a class="navbar-item is-tab">KGAURAV.ONLINE</a>
         <a class="navbar-item is-tab">BUTTEROPS.DEV</a>
-        <a class="navbar-item is-tab">+ NEW</a>
+        <a class="navbar-item is-tab is-active">+ NEW</a>
       </div>
     </nav>
 
@@ -70,37 +66,25 @@
         <article class="is-child">
           <div class="field">
             <label class="label">Username</label>
-            <div class="control has-icons-left has-icons-right">
+            <div class="control">
               <input
                 class="input is-success"
                 type="text"
                 placeholder="Text input"
                 value="bulma"
               />
-              <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-              </span>
             </div>
             <p class="help is-success">This username is available</p>
           </div>
           <div class="field">
             <label class="label">Email</label>
-            <div class="control has-icons-left has-icons-right">
+            <div class="control">
               <input
                 class="input is-danger"
                 type="email"
                 placeholder="Email input"
                 value="hello@"
               />
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-              </span>
             </div>
             <p class="help is-danger">This email is invalid</p>
           </div>
@@ -355,9 +339,13 @@ a.navbar-item:hover {
 }
 
 .logo {
-  background-color: $darker-color;
+  background-color: $highlight-color;
   width: $sidebar-width;
-  border-right: dotted 1px black;
+  border-right: solid 1px black;
+  span {
+    color: $dark-color !important;
+    font-weight: bold;
+  }
 }
 
 #switcher {
