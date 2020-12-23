@@ -1,6 +1,6 @@
 # Mr Jam Stack
 
-A Jam Stack all rounder desktop app. MrJamStack aims to provide developers a no code / low code approach for creating static websites without compromising one's favourite SSG, CMS or Deployment workflow.
+A Jam Stack all rounder desktop app. `Mr JAM Stack` aims to provide developers a no code / low code approach for creating static websites without compromising one's favourite SSG, CMS or Deployment workflow.
 
 [What is JAM Stack?](https://jamstack.org/)
 
@@ -34,13 +34,13 @@ npm run build
 1. User selects an SSG, CMS, CI and deployment servers.
 Assuming platform to be macOS, Hugo, NetlifyCMS, Github Actions, Github Pages
 
-2. MrJamStack generates website source code and converts Step-1 selections into website configuration.
+2. `Mr JAM Stack` generates website source code and converts Step-1 selections into website configuration.
 
 3. User grants access keys to github account
 
-4. MrJamStack creates a repository on github, clones it locally and pushes the website code into it.
+4. `Mr JAM Stack` creates a repository on github, clones it locally and pushes the website code into it.
 
-5. Since the website is generated dynamically on local machine, MrJamStack detects and provides Edit, Draft, Push Live or Roll back features with reference to the website.
+5. Since the website is generated dynamically on local machine, `Mr JAM Stack` detects and provides Edit, Draft, Push Live or Roll back features with reference to the website.
 
 ---
 
