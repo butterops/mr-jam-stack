@@ -52,9 +52,6 @@
               <div class="control">
                 <button class="button">Submit</button>
               </div>
-              <div class="control">
-                <button class="button">Cancel</button>
-              </div>
             </div>
           </div>
           <div>
@@ -68,7 +65,7 @@
             <label class="label">Username</label>
             <div class="control">
               <input
-                class="input is-success"
+                class="input"
                 type="text"
                 placeholder="Text input"
                 value="bulma"
@@ -80,7 +77,7 @@
             <label class="label">Email</label>
             <div class="control">
               <input
-                class="input is-danger"
+                class="input"
                 type="email"
                 placeholder="Email input"
                 value="hello@"
@@ -105,14 +102,14 @@
               <textarea class="textarea" placeholder="Textarea"></textarea>
             </div>
           </div>
-          <div class="field">
+          <!-- <div class="field">
             <div class="control">
               <label class="checkbox">
                 <input type="checkbox" />
                 I agree to the <a href="#">terms and conditions</a>
               </label>
             </div>
-          </div>
+          </div> -->
           <div class="field">
             <div class="control">
               <label class="radio">
@@ -283,7 +280,6 @@ body {
   }
   .navbar-item:hover {
     padding-left: $padding;
-    color: $highlight-color;
   }
 }
 
@@ -339,7 +335,7 @@ a.navbar-item:hover {
 }
 
 .logo {
-  background-color: $highlight-color;
+  background-color: $font-color;
   width: $sidebar-width;
   border-right: solid 1px black;
   span {
@@ -368,8 +364,9 @@ label,
   max-width: 100%;
   width: 100%;
 }
-.button:hover {
-  color: $highlight-color !important;
-  border-color: $highlight-color !important;
+.navbar-item.is-tab.is-active,
+.navbar-item.is-tab:hover {
+  color: $font-color !important;
+  border-color: $font-color !important;
 }
 </style>
