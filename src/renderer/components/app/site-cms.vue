@@ -3,7 +3,7 @@
 
 <script>
 export default {
-  name: "mjs-site-switcher",
+  name: "SiteCms",
   components: {},
   methods: {
     open(link) {

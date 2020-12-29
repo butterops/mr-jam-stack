@@ -3,7 +3,7 @@
 
 <script>
 export default {
-  name: "mjs-setup-site",
+  name: "SiteAnalytics",
   components: {},
   methods: {
     open(link) {

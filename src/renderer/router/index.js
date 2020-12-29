@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'mjs-app',
-      component: require('@/components/mjs-app').default
+      component: require('@/components/app/_layout').default
     },
     {
       path: '*',
