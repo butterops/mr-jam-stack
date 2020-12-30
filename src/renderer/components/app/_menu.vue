@@ -1,5 +1,7 @@
 <template>
   <nav class="menu">
+    <site-switcher></site-switcher>
+
     <ul class="menu-list">
       <br />
       <br />
@@ -17,9 +19,13 @@
 </template>
 
 <script>
+import SiteSwitcher from "./_switcher.vue";
+
 export default {
   name: "AppMenu",
-  components: {},
+  components: {
+    SiteSwitcher,
+  },
   methods: {
     open(link) {
       this.$electron.shell.openExternal(link);

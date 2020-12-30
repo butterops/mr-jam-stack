@@ -1,27 +1,24 @@
 <template>
-  <div class="wrapper">
+  <div>
     <aside class="sidebar">
-      <site-switcher></site-switcher>
-      <app-menu></app-menu>
+      <app-menu />
     </aside>
-
     <main class="main">
-      <site-options></site-options>
-      <site-cms></site-cms>
-      <site-seo></site-seo>
-      <site-integrations></site-integrations>
-      <site-analytics></site-analytics>
+      <site-options v-if="activeTab === 'options'" />
+      <site-cms v-if="activeTab === 'cms'" />
+      <site-seo v-if="activeTab === 'seo'" />
+      <site-integrations v-if="activeTab === 'integrations'" />
+      <site-analytics v-if="activeTab === 'analytics'" />
     </main>
   </div>
 </template>
 
 <script>
-import SiteAnalytics from "./site-analytics.vue";
-import SiteCms from "./site-cms.vue";
-import SiteIntegrations from "./site-integrations.vue";
-import SiteOptions from "./site-options";
-import SiteSeo from "./site-seo.vue";
-import SiteSwitcher from "./site-switcher.vue";
+import SiteAnalytics from "./analytics.vue";
+import SiteCms from "./cms.vue";
+import SiteIntegrations from "./integrations.vue";
+import SiteOptions from "./options";
+import SiteSeo from "./seo.vue";
 import AppMenu from "./_menu.vue";
 
 export default {
@@ -32,13 +29,13 @@ export default {
     SiteSeo,
     SiteIntegrations,
     SiteAnalytics,
-    SiteSwitcher,
     AppMenu,
   },
-  methods: {
-    SiteOptionsopen(link) {
-      // this.$electron.shell.openExternal(link);
-    },
+  methods: {},
+  data() {
+    return {
+      activeTab: "options",
+    };
   },
 };
 </script>
