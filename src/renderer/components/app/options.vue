@@ -13,54 +13,50 @@
 
     <article class="is-child">
       <div class="field">
-        <label class="label">Username</label>
-        <div class="control">
-          <input
-            class="input"
-            type="text"
-            placeholder="Text input"
-            value="bulma"
-          />
-        </div>
-        <p class="help is-success">This username is available</p>
-      </div>
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control">
-          <input
-            class="input"
-            type="email"
-            placeholder="Email input"
-            value="hello@"
-          />
-        </div>
-        <p class="help is-danger">This email is invalid</p>
-      </div>
-      <div class="field">
-        <label class="label">Subject</label>
+        <label class="label">Select Site Generator</label>
         <div class="control">
           <div class="select">
             <select>
-              <option>Select dropdown</option>
-              <option>With options</option>
+              <option>Hugo (recommended)</option>
+              <option>Next</option>
+              <option>Gatsby</option>
             </select>
           </div>
         </div>
       </div>
       <div class="field">
-        <label class="label">Message</label>
+        <label class="label">Name of the theme</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+          <input
+            class="input"
+            type="email"
+            placeholder="Email input"
+            value="ankel"
+          />
+        </div>
+        <p class="help is-link">
+          <a href="https://themes.gohugo.io/">Browse themes</a>
+        </p>
+      </div>
+      <div class="field">
+        <label class="label">Select a CMS</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Netify CMS (recommended)</option>
+              <option>Dato CMS</option>
+            </select>
+          </div>
         </div>
       </div>
-      <!-- <div class="field">
-            <div class="control">
-              <label class="checkbox">
-                <input type="checkbox" />
-                I agree to the <a href="#">terms and conditions</a>
-              </label>
-            </div>
-          </div> -->
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox" />
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </div>
+      </div>
       <div class="field">
         <div class="control">
           <label class="radio">

@@ -77,8 +77,8 @@ body {
   }
   .menu {
     position: fixed;
-    // width: calc(#{$sidebar-width} - 2.5rem);
-    width: $sidebar-width;
+    width: calc(#{$sidebar-width} - 0.5rem);
+    // width: $sidebar-width;
     max-width: inherit;
   }
   .menu-list a {
@@ -257,9 +257,8 @@ label,
 .textarea,
 .button {
   background-color: $dark-color !important;
-  border-color: #dbdbdb;
   color: $font-dark-color !important;
-  max-width: 100%;
+  max-width: 200px !important;
   width: 100%;
 }
 .navbar-item.is-tab.is-active,
