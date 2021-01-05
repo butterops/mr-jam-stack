@@ -4,7 +4,8 @@ import axios from 'axios'
 import App from './App'
 import router from './router'
 import store from './store'
-import "../../node_modules/Bulma/CSS/bulma.css"
+import "../../node_modules/bulma-quickview/dist/css/bulma-quickview.min.css"
+import "./saas/mystyles.scss"
 
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))

@@ -1,16 +1,5 @@
 <template>
   <div>
-    <header class="is-clearfix">
-      <div class="cats is-pulled-right has-text-right">
-        <button class="button">Create</button>
-      </div>
-      <div>
-        <h2>Add New Website</h2>
-        <small>Fill the form below</small>
-      </div>
-      <hr />
-    </header>
-
     <article class="is-child">
       <div class="field">
         <label class="label">Select Site Generator</label>
@@ -27,12 +16,12 @@
       <div class="field">
         <label class="label">Name of the theme</label>
         <div class="control">
-          <input
+          <!-- <input
             class="input"
             type="email"
             placeholder="Email input"
             value="ankel"
-          />
+          /> -->
         </div>
         <p class="help is-link">
           <a href="https://themes.gohugo.io/">Browse themes</a>
